@@ -80,11 +80,11 @@ logo = """
 \033[1;93m◁━━━━━━━━━━━━━━━━━━━━◈✙◈━━━━━━━━━━━━━━━━━━━━▷\033[1;97m
 
 \033[1;93m-----------------------------------------------
-\033[1;96m(~)\033[1;93m Author : Sufyan Ahmad \033[1;97m[ \033[0;93mShabQadry \033[1;97m]
+\033[1;96m(~)\033[1;93m Author   : Sufyan Ahmad \033[1;97m[ \033[0;93mShabQadry \033[1;97m]
 
-\033[1;96m(~)\033[1;96m Github : https://github.com/Sufyanahmad
+\033[1;96m(~)\033[1;96m Github   : https://github.com/Sufyanahmad
 
-\033[1;96m(~)\033[1;99m Fb     : https://www.facebook.com/Sufyanshabqadry
+\033[1;96m(~)\033[1;99m Facebook : https://www.facebook.com/Sufyanshabqadry
                            
             \033[1;96nWHATSAPP NUMBER  +93489458276
 \033[1;93m-----------------------------------------------
