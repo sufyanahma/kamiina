@@ -426,7 +426,7 @@ def menu_select():
 
 		if select =="2":
 
-		os.system("clear")
+		 os.system("clear")
 		
 
 		print(logo)
